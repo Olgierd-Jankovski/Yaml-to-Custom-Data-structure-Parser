@@ -1,5 +1,8 @@
 # Yaml-to-Custom-Data-structure-Parser
 This is a parser written in Haskell that parses a Yaml string and converts it to a custom data structure similar to JSON. it includes various monadic parsers to handle different types of YAML elements such as empty dictionaries, empty lists, null values, quoted strings, etc.. In a short, the entire directory is a bimaru game, where we had to implement functions to make the client run. There are 3 main tasks distributed in 3 different haskell files
+  1st Task: implement src/Lib1.hs functions emptyState, gameStart, render, mkCheck, toggle and hint. (https://github.com/Olgierd199/Yaml-to-Custom-Data-structure-Parser/blob/main/bimaru-client/src/Lib1.hs)
+  2nd Task: implement tests for Lib2 module functions and implement instances, renderDocument - **Parsing Custom Data Structure** to **YAML** in string format. (https://github.com/Olgierd199/Yaml-to-Custom-Data-structure-Parser/blob/main/bimaru-client/src/Lib2.hs)
+  3rd Task: implement parseDocument function with instances - **Parsing YAML in string format to Custom Data Structure - Document** (monadic parser) (https://github.com/Olgierd199/Yaml-to-Custom-Data-structure-Parser/blob/main/bimaru-client/src/Lib3.hs)
 
 
 # Installation
